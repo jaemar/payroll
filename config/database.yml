@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: jasmine
+
+development:
+  <<: *default
+  database: payroll_development
+
+test:
+  <<: *default
+  database: payroll_test
+
+#production:
+  #<<: *default
+  #database: payroll_production
+  #username: payroll
+  #password: <%= ENV['PAYROLL_DATABASE_PASSWORD'] %>
