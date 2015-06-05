@@ -8,7 +8,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'foundation-rails'
 gem 'haml'
 gem 'html2haml'
+gem 'haml-rails', '~> 0.9'
 gem 'devise'
+gem 'simple_form'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 

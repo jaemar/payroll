@@ -1486,3 +1486,29 @@ $include-html-global-classes: $include-html-classes;
 // $include-legacy-visibility-classes: true;
 
 @import 'foundation';
+
+/*body {*/
+  /*.top-bar {*/
+    /*background: #f8c52e;*/
+
+    /*section {*/
+      /*li:not(.has-form) {*/
+        /*a:not(.button) {*/
+          /*background: #f8c52e;*/
+          /*color: #333333;*/
+
+          /*:hover {*/
+            /*color: #fff;*/
+          /*}*/
+        /*}*/
+      /*}*/
+    /*}*/
+    /*.name {*/
+      /*h1 {*/
+        /*a {*/
+          /*color: #333333;*/
+        /*}*/
+      /*}*/
+    /*}*/
+  /*}*/
+/*}*/
